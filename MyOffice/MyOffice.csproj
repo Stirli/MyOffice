@@ -72,9 +72,6 @@
     <Compile Include="Concrete\CsvExpiredProductsLoader.cs" />
     <Compile Include="Concrete\CsvPathFinder.cs" />
     <Compile Include="Concrete\FilterMethod.cs" />
-    <Compile Include="Exceptions\UserCanceledTaskException.cs" />
-    <Compile Include="Interfaces\IExpiredProductsLoader.cs" />
-    <Compile Include="Interfaces\IPathFinder.cs" />
     <Compile Include="Abstract\PathFinder.cs" />
     <Compile Include="Model\ExpiredProduct.cs" />
     <Compile Include="Model\MainViewModel.cs" />
@@ -98,7 +95,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Abstract\CsvDataEnumerator.cs" />
-    <Compile Include="Interfaces\IDataEnumerator.cs" />
     <Page Include="Windows\UserWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
