@@ -99,10 +99,6 @@
     </Compile>
     <Compile Include="Abstract\CsvDataEnumerator.cs" />
     <Compile Include="Interfaces\IDataEnumerator.cs" />
-    <Page Include="Theme\Standart\Style.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Windows\UserWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
